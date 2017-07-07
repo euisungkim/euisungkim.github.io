@@ -1,0 +1,26 @@
+{
+    "plugins": ["youtube", "mathjax", "collapsible-menu", "prism", "-highlight", "sunlight-highlighter", "quiz", "sectionx-collapse"],
+    "pluginsConfig":
+    {
+      "mathjax": { "forceSVG": true },
+      "sunlight-highlighter": { "theme": "dark", "lineNumber": true },
+      "quiz":
+      {
+        "labels":
+        {
+          "check"             : "Check my answers",
+          "showExplanation"   : "Explain",
+          "showCorrect"       : "Show all",
+          "explanationHeader" : "Explanation"
+        },
+        "text": {
+          "noChosen"    : "Choose at least one answer",
+          "incomplete"  : "Some correct answers are missing"
+        },
+        "buttons": {
+          "showCorrect"       : true,
+          "showExplanation"   : true
+        }
+      }
+   }
+}

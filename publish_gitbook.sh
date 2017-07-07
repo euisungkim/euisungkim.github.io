@@ -12,7 +12,7 @@ git clean -fx _book
 git add .
 
 # commit
-git commit -a -m "Update docs"
+git commit -a -m "Added Java-Overview: Naming Conventions & JVM"
 
 # push to the origin
 git push origin master
